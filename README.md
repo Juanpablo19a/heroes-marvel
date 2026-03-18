@@ -1,12 +1,22 @@
-# React + Vite
+🦸‍♂️ Heroes SPA - Marvel & DC Universe
+Descripción del Proyecto Una aplicación web interactiva (Single Page Application) desarrollada con React que funciona como un directorio de superhéroes de los universos Marvel y DC Comics. El proyecto demuestra el manejo avanzado de estado en React, navegación compleja y protección de rutas mediante autenticación backend real.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Características Principales
 
-Currently, two official plugins are available:
+Autenticación Real en la Nube: Sistema de inicio de sesión completamente funcional integrado con Supabase, validando credenciales (correo electrónico y contraseña) y manejando sesiones de usuario.
+Protección de Rutas (Private/Public Routes): Implementación de seguridad en el frontend con React Router DOM. Las rutas del directorio son privadas y bloquean el acceso a usuarios no autenticados, redirigiéndolos al inicio de sesión.
+Sistema de Búsqueda Dinámica: Buscador optimizado que filtra el catálogo de héroes en tiempo real utilizando parámetros de URL (query strings), permitiendo mantener el historial de navegación para compartir enlaces directos a búsquedas específicas.
+Renderizado de Componentes: Uso de useMemo y validaciones para optimizar la carga de tarjetas y detalles de cada héroe de forma individual.
+💻 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React (Hooks funcionales: useState, useContext, useReducer, useMemo).
+Enrutamiento: React Router DOM v6.
+Backend / Auth: Supabase (PostgreSQL en la nube).
+Herramientas de Construcción & Despliegue: Vite, alojado en Vercel.
+🔑 Credenciales de Prueba (Demo) Para explorar la aplicación en funcionamiento como reclutador o visitante, puedes acceder con las siguientes credenciales:
 
-## Expanding the ESLint configuration
+Email: pablo@gmail.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+DEMO : marvel-ten-smoky.vercel.app
+)
+Contraseña: 123456
